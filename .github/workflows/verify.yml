@@ -28,4 +28,6 @@ jobs:
       - run: docker build -t qinghe-people:verify .
       - run: |
           docker run -d --name people -p 4318:4318 qinghe-people:verify
-          curl --retry 10 --retry-connrefused --retry-delay 2 --fail http://127.0.0.1:4318/
+          curl --retry 10 --retry-all-errors --retry-delay 2 --max-time 5 --fail http://127.0.0.1:4318/
+      - run: docker logs people
+        if: failure()
