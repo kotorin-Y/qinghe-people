@@ -1,0 +1,1715 @@
+{
+  "employees": [
+    {
+      "id": "emp-001",
+      "name": "陈远",
+      "englishName": "Alex",
+      "department": "技术研发",
+      "position": "研发负责人",
+      "level": "P8",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-02-02",
+      "manager": "周明",
+      "email": "tech.1@xingyun.example"
+    },
+    {
+      "id": "emp-002",
+      "name": "李沐",
+      "englishName": "Ryan",
+      "department": "技术研发",
+      "position": "高级前端工程师",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-03-03",
+      "manager": "陈远",
+      "email": "tech.2@xingyun.example"
+    },
+    {
+      "id": "emp-003",
+      "name": "王亦舟",
+      "englishName": "Avery",
+      "department": "技术研发",
+      "position": "后端开发工程师",
+      "level": "P6",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-04-04",
+      "manager": "陈远",
+      "email": "tech.3@xingyun.example"
+    },
+    {
+      "id": "emp-004",
+      "name": "周予安",
+      "englishName": "Coco",
+      "department": "技术研发",
+      "position": "算法工程师",
+      "level": "P7",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "试用",
+      "joinDate": "2026-07-01",
+      "manager": "陈远",
+      "email": "tech.4@xingyun.example"
+    },
+    {
+      "id": "emp-005",
+      "name": "张晨",
+      "englishName": "Evan",
+      "department": "技术研发",
+      "position": "测试开发工程师",
+      "level": "P4",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-06-06",
+      "manager": "陈远",
+      "email": "tech.5@xingyun.example"
+    },
+    {
+      "id": "emp-006",
+      "name": "许知行",
+      "englishName": "",
+      "department": "技术研发",
+      "position": "数据工程师",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-07-07",
+      "manager": "陈远",
+      "email": "tech.6@xingyun.example"
+    },
+    {
+      "id": "emp-007",
+      "name": "沈墨",
+      "englishName": "Alex",
+      "department": "技术研发",
+      "position": "平台开发工程师",
+      "level": "P6",
+      "location": "上海",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-08-08",
+      "manager": "陈远",
+      "email": "tech.7@xingyun.example"
+    },
+    {
+      "id": "emp-008",
+      "name": "赵嘉宁",
+      "englishName": "Ryan",
+      "department": "技术研发",
+      "position": "研发负责人",
+      "level": "P7",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-09-09",
+      "manager": "陈远",
+      "email": "tech.8@xingyun.example"
+    },
+    {
+      "id": "emp-009",
+      "name": "刘子谦",
+      "englishName": "Avery",
+      "department": "技术研发",
+      "position": "高级前端工程师",
+      "level": "P4",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-10-10",
+      "manager": "陈远",
+      "email": "tech.9@xingyun.example"
+    },
+    {
+      "id": "emp-010",
+      "name": "宋清",
+      "englishName": "Coco",
+      "department": "技术研发",
+      "position": "后端开发工程师",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-11-11",
+      "manager": "陈远",
+      "email": "tech.10@xingyun.example"
+    },
+    {
+      "id": "emp-011",
+      "name": "韩星",
+      "englishName": "Evan",
+      "department": "技术研发",
+      "position": "算法工程师",
+      "level": "P6",
+      "location": "北京",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-12-12",
+      "manager": "陈远",
+      "email": "tech.11@xingyun.example"
+    },
+    {
+      "id": "emp-012",
+      "name": "顾泽",
+      "englishName": "",
+      "department": "技术研发",
+      "position": "测试开发工程师",
+      "level": "P7",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "试用",
+      "joinDate": "2026-07-01",
+      "manager": "陈远",
+      "email": "tech.12@xingyun.example"
+    },
+    {
+      "id": "emp-013",
+      "name": "马文博",
+      "englishName": "Alex",
+      "department": "技术研发",
+      "position": "数据工程师",
+      "level": "P4",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-02-14",
+      "manager": "陈远",
+      "email": "tech.13@xingyun.example"
+    },
+    {
+      "id": "emp-014",
+      "name": "吴一帆",
+      "englishName": "Ryan",
+      "department": "技术研发",
+      "position": "平台开发工程师",
+      "level": "P5",
+      "location": "上海",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-03-15",
+      "manager": "陈远",
+      "email": "tech.14@xingyun.example"
+    },
+    {
+      "id": "emp-015",
+      "name": "苏晚",
+      "englishName": "Avery",
+      "department": "产品设计",
+      "position": "产品设计负责人",
+      "level": "P8",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-04-16",
+      "manager": "周明",
+      "email": "product.1@xingyun.example"
+    },
+    {
+      "id": "emp-016",
+      "name": "林书雅",
+      "englishName": "Coco",
+      "department": "产品设计",
+      "position": "高级产品经理",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-05-17",
+      "manager": "苏晚",
+      "email": "product.2@xingyun.example"
+    },
+    {
+      "id": "emp-017",
+      "name": "郑恬",
+      "englishName": "Evan",
+      "department": "产品设计",
+      "position": "产品经理",
+      "level": "P6",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-06-18",
+      "manager": "苏晚",
+      "email": "product.3@xingyun.example"
+    },
+    {
+      "id": "emp-018",
+      "name": "周言",
+      "englishName": "",
+      "department": "产品设计",
+      "position": "体验设计师",
+      "level": "P7",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-07-19",
+      "manager": "苏晚",
+      "email": "product.4@xingyun.example"
+    },
+    {
+      "id": "emp-019",
+      "name": "钱子墨",
+      "englishName": "Alex",
+      "department": "产品设计",
+      "position": "用户研究员",
+      "level": "P4",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-08-20",
+      "manager": "苏晚",
+      "email": "product.5@xingyun.example"
+    },
+    {
+      "id": "emp-020",
+      "name": "江映月",
+      "englishName": "Ryan",
+      "department": "产品设计",
+      "position": "产品设计负责人",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-09-21",
+      "manager": "苏晚",
+      "email": "product.6@xingyun.example"
+    },
+    {
+      "id": "emp-021",
+      "name": "何思远",
+      "englishName": "Avery",
+      "department": "产品设计",
+      "position": "高级产品经理",
+      "level": "P6",
+      "location": "上海",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-10-22",
+      "manager": "苏晚",
+      "email": "product.7@xingyun.example"
+    },
+    {
+      "id": "emp-022",
+      "name": "唐宁",
+      "englishName": "Coco",
+      "department": "产品设计",
+      "position": "产品经理",
+      "level": "P7",
+      "location": "北京",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-11-23",
+      "manager": "苏晚",
+      "email": "product.8@xingyun.example"
+    },
+    {
+      "id": "emp-023",
+      "name": "罗予",
+      "englishName": "Evan",
+      "department": "产品设计",
+      "position": "体验设计师",
+      "level": "P4",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-12-24",
+      "manager": "苏晚",
+      "email": "product.9@xingyun.example"
+    },
+    {
+      "id": "emp-024",
+      "name": "陆然",
+      "englishName": "",
+      "department": "市场增长",
+      "position": "增长负责人",
+      "level": "P8",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-01-25",
+      "manager": "周明",
+      "email": "growth.1@xingyun.example"
+    },
+    {
+      "id": "emp-025",
+      "name": "杜若",
+      "englishName": "Alex",
+      "department": "市场增长",
+      "position": "增长产品经理",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "试用",
+      "joinDate": "2026-07-01",
+      "manager": "陆然",
+      "email": "growth.2@xingyun.example"
+    },
+    {
+      "id": "emp-026",
+      "name": "程曦",
+      "englishName": "Ryan",
+      "department": "市场增长",
+      "position": "内容运营",
+      "level": "P6",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-03-27",
+      "manager": "陆然",
+      "email": "growth.3@xingyun.example"
+    },
+    {
+      "id": "emp-027",
+      "name": "蔡子言",
+      "englishName": "Avery",
+      "department": "市场增长",
+      "position": "用户运营",
+      "level": "P7",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-04-01",
+      "manager": "陆然",
+      "email": "growth.4@xingyun.example"
+    },
+    {
+      "id": "emp-028",
+      "name": "傅晴",
+      "englishName": "Coco",
+      "department": "市场增长",
+      "position": "品牌策划",
+      "level": "P4",
+      "location": "上海",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-05-02",
+      "manager": "陆然",
+      "email": "growth.5@xingyun.example"
+    },
+    {
+      "id": "emp-029",
+      "name": "谭晓",
+      "englishName": "Evan",
+      "department": "市场增长",
+      "position": "增长负责人",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-06-03",
+      "manager": "陆然",
+      "email": "growth.6@xingyun.example"
+    },
+    {
+      "id": "emp-030",
+      "name": "夏亦可",
+      "englishName": "",
+      "department": "市场增长",
+      "position": "增长产品经理",
+      "level": "P6",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-07-04",
+      "manager": "陆然",
+      "email": "growth.7@xingyun.example"
+    },
+    {
+      "id": "emp-031",
+      "name": "邓煜",
+      "englishName": "Alex",
+      "department": "市场增长",
+      "position": "内容运营",
+      "level": "P7",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-08-05",
+      "manager": "陆然",
+      "email": "growth.8@xingyun.example"
+    },
+    {
+      "id": "emp-032",
+      "name": "高俊",
+      "englishName": "Ryan",
+      "department": "商业运营",
+      "position": "商业运营负责人",
+      "level": "P8",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-09-06",
+      "manager": "周明",
+      "email": "business.1@xingyun.example"
+    },
+    {
+      "id": "emp-033",
+      "name": "梁思",
+      "englishName": "Avery",
+      "department": "商业运营",
+      "position": "商业分析师",
+      "level": "P5",
+      "location": "北京",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-10-07",
+      "manager": "高俊",
+      "email": "business.2@xingyun.example"
+    },
+    {
+      "id": "emp-034",
+      "name": "郭祎",
+      "englishName": "Coco",
+      "department": "商业运营",
+      "position": "销售运营",
+      "level": "P6",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-11-08",
+      "manager": "高俊",
+      "email": "business.3@xingyun.example"
+    },
+    {
+      "id": "emp-035",
+      "name": "段子衿",
+      "englishName": "Evan",
+      "department": "商业运营",
+      "position": "战略运营",
+      "level": "P7",
+      "location": "上海",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-12-09",
+      "manager": "高俊",
+      "email": "business.4@xingyun.example"
+    },
+    {
+      "id": "emp-036",
+      "name": "施奕",
+      "englishName": "",
+      "department": "商业运营",
+      "position": "商业运营负责人",
+      "level": "P4",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-01-10",
+      "manager": "高俊",
+      "email": "business.5@xingyun.example"
+    },
+    {
+      "id": "emp-037",
+      "name": "陶乐",
+      "englishName": "Alex",
+      "department": "商业运营",
+      "position": "商业分析师",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-02-11",
+      "manager": "高俊",
+      "email": "business.6@xingyun.example"
+    },
+    {
+      "id": "emp-038",
+      "name": "纪南",
+      "englishName": "Ryan",
+      "department": "商业运营",
+      "position": "销售运营",
+      "level": "P6",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "试用",
+      "joinDate": "2026-07-01",
+      "manager": "高俊",
+      "email": "business.7@xingyun.example"
+    },
+    {
+      "id": "emp-039",
+      "name": "孟辰",
+      "englishName": "Avery",
+      "department": "客户成功",
+      "position": "客户成功负责人",
+      "level": "P8",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-04-13",
+      "manager": "周明",
+      "email": "customer.1@xingyun.example"
+    },
+    {
+      "id": "emp-040",
+      "name": "严思琪",
+      "englishName": "Coco",
+      "department": "客户成功",
+      "position": "客户成功经理",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-05-14",
+      "manager": "孟辰",
+      "email": "customer.2@xingyun.example"
+    },
+    {
+      "id": "emp-041",
+      "name": "姚安",
+      "englishName": "Evan",
+      "department": "客户成功",
+      "position": "实施顾问",
+      "level": "P6",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-06-15",
+      "manager": "孟辰",
+      "email": "customer.3@xingyun.example"
+    },
+    {
+      "id": "emp-042",
+      "name": "白泽",
+      "englishName": "",
+      "department": "客户成功",
+      "position": "解决方案顾问",
+      "level": "P7",
+      "location": "上海",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-07-16",
+      "manager": "孟辰",
+      "email": "customer.4@xingyun.example"
+    },
+    {
+      "id": "emp-043",
+      "name": "丁佳",
+      "englishName": "Alex",
+      "department": "客户成功",
+      "position": "客户成功负责人",
+      "level": "P4",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2025-08-17",
+      "manager": "孟辰",
+      "email": "customer.5@xingyun.example"
+    },
+    {
+      "id": "emp-044",
+      "name": "彭皓",
+      "englishName": "Ryan",
+      "department": "客户成功",
+      "position": "客户成功经理",
+      "level": "P5",
+      "location": "北京",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2022-09-18",
+      "manager": "孟辰",
+      "email": "customer.6@xingyun.example"
+    },
+    {
+      "id": "emp-045",
+      "name": "林悦",
+      "englishName": "Avery",
+      "department": "人力行政",
+      "position": "HR 负责人",
+      "level": "P8",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2023-10-19",
+      "manager": "周明",
+      "email": "people.1@xingyun.example"
+    },
+    {
+      "id": "emp-046",
+      "name": "许嘉",
+      "englishName": "Coco",
+      "department": "人力行政",
+      "position": "HRBP",
+      "level": "P5",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "正式",
+      "joinDate": "2024-11-20",
+      "manager": "林悦",
+      "email": "people.2@xingyun.example"
+    },
+    {
+      "id": "emp-047",
+      "name": "温栩",
+      "englishName": "Evan",
+      "department": "人力行政",
+      "position": "招聘专员",
+      "level": "P6",
+      "location": "杭州",
+      "employmentType": "实习",
+      "status": "待入职",
+      "joinDate": "2026-09-22",
+      "manager": "林悦",
+      "email": "people.3@xingyun.example"
+    },
+    {
+      "id": "emp-048",
+      "name": "陈雨桐",
+      "englishName": "",
+      "department": "人力行政",
+      "position": "人事运营专员",
+      "level": "P7",
+      "location": "杭州",
+      "employmentType": "全职",
+      "status": "待入职",
+      "joinDate": "2026-09-22",
+      "manager": "林悦",
+      "email": "people.4@xingyun.example"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-001",
+      "title": "高级前端工程师",
+      "department": "技术研发",
+      "level": "P6–P7",
+      "location": "杭州",
+      "headcount": 2,
+      "status": "招聘中",
+      "owner": "许嘉",
+      "salaryRange": "25–40K · 16 薪",
+      "openedAt": "2026-09-02"
+    },
+    {
+      "id": "job-002",
+      "title": "AI 产品经理",
+      "department": "产品设计",
+      "level": "P6",
+      "location": "杭州",
+      "headcount": 2,
+      "status": "招聘中",
+      "owner": "温栩",
+      "salaryRange": "25–35K · 15 薪",
+      "openedAt": "2026-08-28"
+    },
+    {
+      "id": "job-003",
+      "title": "增长运营专家",
+      "department": "市场增长",
+      "level": "P6",
+      "location": "上海",
+      "headcount": 1,
+      "status": "招聘中",
+      "owner": "许嘉",
+      "salaryRange": "20–30K · 14 薪",
+      "openedAt": "2026-09-05"
+    },
+    {
+      "id": "job-004",
+      "title": "数据分析师",
+      "department": "商业运营",
+      "level": "P5–P6",
+      "location": "杭州",
+      "headcount": 1,
+      "status": "招聘中",
+      "owner": "温栩",
+      "salaryRange": "18–28K · 14 薪",
+      "openedAt": "2026-09-08"
+    },
+    {
+      "id": "job-005",
+      "title": "客户成功经理",
+      "department": "客户成功",
+      "level": "P5",
+      "location": "北京",
+      "headcount": 1,
+      "status": "招聘中",
+      "owner": "许嘉",
+      "salaryRange": "15–25K · 14 薪",
+      "openedAt": "2026-09-10"
+    },
+    {
+      "id": "job-006",
+      "title": "招聘专员",
+      "department": "人力行政",
+      "level": "P4",
+      "location": "杭州",
+      "headcount": 1,
+      "status": "已关闭",
+      "owner": "林悦",
+      "salaryRange": "10–15K · 13 薪",
+      "openedAt": "2026-08-18"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "can-001",
+      "name": "陈思远",
+      "jobId": "job-001",
+      "stage": "简历筛选",
+      "source": "BOSS 直聘",
+      "experience": "2 年",
+      "appliedAt": "2026-09-05",
+      "tags": [
+        "SaaS 背景",
+        "沟通清晰"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有2 年相关工作经验，关注高级前端工程师岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "高级前端工程师",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "高级前端工程师",
+          "SaaS 背景",
+          "沟通清晰"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-002",
+      "name": "叶知秋",
+      "jobId": "job-002",
+      "stage": "初试",
+      "source": "内推",
+      "experience": "3 年",
+      "appliedAt": "2026-09-06",
+      "tags": [
+        "985 / 211",
+        "高潜人才"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有3 年相关工作经验，关注AI 产品经理岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "AI 产品经理",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "AI 产品经理",
+          "985 / 211",
+          "高潜人才"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-003",
+      "name": "何景行",
+      "jobId": "job-003",
+      "stage": "复试",
+      "source": "猎聘",
+      "experience": "4 年",
+      "appliedAt": "2026-09-07",
+      "tags": [
+        "大厂经历"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有4 年相关工作经验，关注增长运营专家岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "增长运营专家",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "增长运营专家",
+          "大厂经历"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-004",
+      "name": "杨帆",
+      "jobId": "job-004",
+      "stage": "Offer",
+      "source": "官网投递",
+      "experience": "5 年",
+      "appliedAt": "2026-09-08",
+      "tags": [
+        "业务导向",
+        "跨团队协作"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有5 年相关工作经验，关注数据分析师岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "数据分析师",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "数据分析师",
+          "业务导向",
+          "跨团队协作"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-005",
+      "name": "林小满",
+      "jobId": "job-005",
+      "stage": "简历筛选",
+      "source": "BOSS 直聘",
+      "experience": "6 年",
+      "appliedAt": "2026-09-09",
+      "tags": [
+        "SaaS 背景",
+        "沟通清晰"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有6 年相关工作经验，关注客户成功经理岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "客户成功经理",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "客户成功经理",
+          "SaaS 背景",
+          "沟通清晰"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-006",
+      "name": "张念",
+      "jobId": "job-001",
+      "stage": "初试",
+      "source": "内推",
+      "experience": "7 年",
+      "appliedAt": "2026-09-10",
+      "tags": [
+        "985 / 211",
+        "高潜人才"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有7 年相关工作经验，关注高级前端工程师岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "高级前端工程师",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "高级前端工程师",
+          "985 / 211",
+          "高潜人才"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-007",
+      "name": "周嘉禾",
+      "jobId": "job-002",
+      "stage": "简历筛选",
+      "source": "猎聘",
+      "experience": "8 年",
+      "appliedAt": "2026-09-11",
+      "tags": [
+        "大厂经历"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有8 年相关工作经验，关注AI 产品经理岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "AI 产品经理",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "AI 产品经理",
+          "大厂经历"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-008",
+      "name": "沈一诺",
+      "jobId": "job-003",
+      "stage": "复试",
+      "source": "官网投递",
+      "experience": "2 年",
+      "appliedAt": "2026-09-12",
+      "tags": [
+        "业务导向",
+        "跨团队协作"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有2 年相关工作经验，关注增长运营专家岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "增长运营专家",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "增长运营专家",
+          "业务导向",
+          "跨团队协作"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-009",
+      "name": "李星野",
+      "jobId": "job-004",
+      "stage": "初试",
+      "source": "BOSS 直聘",
+      "experience": "3 年",
+      "appliedAt": "2026-09-13",
+      "tags": [
+        "SaaS 背景",
+        "沟通清晰"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有3 年相关工作经验，关注数据分析师岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "数据分析师",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "数据分析师",
+          "SaaS 背景",
+          "沟通清晰"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-010",
+      "name": "徐安然",
+      "jobId": "job-005",
+      "stage": "简历筛选",
+      "source": "内推",
+      "experience": "4 年",
+      "appliedAt": "2026-09-14",
+      "tags": [
+        "985 / 211",
+        "高潜人才"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有4 年相关工作经验，关注客户成功经理岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "客户成功经理",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "客户成功经理",
+          "985 / 211",
+          "高潜人才"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-011",
+      "name": "王若曦",
+      "jobId": "job-001",
+      "stage": "Offer",
+      "source": "猎聘",
+      "experience": "5 年",
+      "appliedAt": "2026-09-15",
+      "tags": [
+        "大厂经历"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有5 年相关工作经验，关注高级前端工程师岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "高级前端工程师",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "高级前端工程师",
+          "大厂经历"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-012",
+      "name": "杜衡",
+      "jobId": "job-002",
+      "stage": "初试",
+      "source": "官网投递",
+      "experience": "6 年",
+      "appliedAt": "2026-09-16",
+      "tags": [
+        "业务导向",
+        "跨团队协作"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有6 年相关工作经验，关注AI 产品经理岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "AI 产品经理",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "AI 产品经理",
+          "业务导向",
+          "跨团队协作"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-013",
+      "name": "顾南",
+      "jobId": "job-003",
+      "stage": "复试",
+      "source": "BOSS 直聘",
+      "experience": "7 年",
+      "appliedAt": "2026-09-17",
+      "tags": [
+        "SaaS 背景",
+        "沟通清晰"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有7 年相关工作经验，关注增长运营专家岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "增长运营专家",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "增长运营专家",
+          "SaaS 背景",
+          "沟通清晰"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-014",
+      "name": "夏青",
+      "jobId": "job-004",
+      "stage": "简历筛选",
+      "source": "内推",
+      "experience": "8 年",
+      "appliedAt": "2026-09-18",
+      "tags": [
+        "985 / 211",
+        "高潜人才"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有8 年相关工作经验，关注数据分析师岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "数据分析师",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "数据分析师",
+          "985 / 211",
+          "高潜人才"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-015",
+      "name": "程子瑜",
+      "jobId": "job-005",
+      "stage": "初试",
+      "source": "猎聘",
+      "experience": "2 年",
+      "appliedAt": "2026-09-05",
+      "tags": [
+        "大厂经历"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有2 年相关工作经验，关注客户成功经理岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "客户成功经理",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "客户成功经理",
+          "大厂经历"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-016",
+      "name": "赵云舒",
+      "jobId": "job-001",
+      "stage": "简历筛选",
+      "source": "官网投递",
+      "experience": "3 年",
+      "appliedAt": "2026-09-06",
+      "tags": [
+        "业务导向",
+        "跨团队协作"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有3 年相关工作经验，关注高级前端工程师岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "高级前端工程师",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "高级前端工程师",
+          "业务导向",
+          "跨团队协作"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-017",
+      "name": "温栩",
+      "jobId": "job-006",
+      "stage": "待入职",
+      "source": "BOSS 直聘",
+      "experience": "4 年",
+      "appliedAt": "2026-09-07",
+      "tags": [
+        "SaaS 背景",
+        "沟通清晰"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有4 年相关工作经验，关注招聘专员岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "招聘专员",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "招聘专员",
+          "SaaS 背景",
+          "沟通清晰"
+        ],
+        "demo": true
+      }
+    },
+    {
+      "id": "can-018",
+      "name": "谭知行",
+      "jobId": "job-003",
+      "stage": "已淘汰",
+      "source": "内推",
+      "experience": "5 年",
+      "appliedAt": "2026-09-08",
+      "tags": [
+        "985 / 211",
+        "高潜人才"
+      ],
+      "resume": {
+        "kind": "profile",
+        "summary": "具有5 年相关工作经验，关注增长运营专家岗位。擅长跨团队沟通与业务问题拆解。",
+        "education": "示例大学 · 本科 · 相关专业",
+        "experiences": [
+          {
+            "company": "示例互联网科技公司（虚构）",
+            "period": "2023.06 — 至今",
+            "position": "增长运营专家",
+            "description": "负责业务需求分析与项目交付，与产品、研发及运营团队协作，推进项目复盘和持续改进。"
+          }
+        ],
+        "skills": [
+          "增长运营专家",
+          "985 / 211",
+          "高潜人才"
+        ],
+        "demo": true
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "高级前端工程师 Offer 审批",
+      "category": "审批",
+      "subject": "杨帆 · 技术研发",
+      "department": "技术研发",
+      "dueDate": "2026-09-20",
+      "priority": "紧急",
+      "status": "待处理",
+      "description": "面试评价已完成，拟定 P6 职级；请确认预算与薪酬方案。审批结论仅记录于待办，招聘阶段由负责人推进。"
+    },
+    {
+      "id": "task-002",
+      "title": "周予安试用期转正评估",
+      "category": "员工",
+      "subject": "周予安 · 算法工程师",
+      "department": "技术研发",
+      "dueDate": "2026-09-22",
+      "priority": "紧急",
+      "status": "待处理",
+      "description": "试用期目标达成材料已提交，请与直属经理确认评估结果。"
+    },
+    {
+      "id": "task-003",
+      "title": "Q3 绩效评审材料确认",
+      "category": "绩效",
+      "subject": "产品设计 · 9 人",
+      "department": "产品设计",
+      "dueDate": "2026-09-23",
+      "priority": "普通",
+      "status": "待处理",
+      "description": "收齐季度目标成果与协作反馈，确认评审会议材料。"
+    },
+    {
+      "id": "task-004",
+      "title": "AI 产品经理复试安排",
+      "category": "招聘",
+      "subject": "沈一诺 · 复试",
+      "department": "产品设计",
+      "dueDate": "2026-09-21",
+      "priority": "普通",
+      "status": "待处理",
+      "description": "与业务面试官确认时间，并检查候选人作品材料。"
+    },
+    {
+      "id": "task-005",
+      "title": "新员工入职准备确认",
+      "category": "员工",
+      "subject": "温栩 · 招聘专员",
+      "department": "人力行政",
+      "dueDate": "2026-09-22",
+      "priority": "普通",
+      "status": "待处理",
+      "description": "核对资料、设备和入职引导；完成情况请同步到入职流程。"
+    },
+    {
+      "id": "task-006",
+      "title": "市场增长编制需求审批",
+      "category": "审批",
+      "subject": "增长运营专家 · 1 个编制",
+      "department": "市场增长",
+      "dueDate": "2026-09-24",
+      "priority": "普通",
+      "status": "待处理",
+      "description": "增长团队提交新增编制申请，计划用于企业客户获客项目。"
+    },
+    {
+      "id": "task-007",
+      "title": "客户成功季度学习计划",
+      "category": "员工",
+      "subject": "客户成功 · 6 人",
+      "department": "客户成功",
+      "dueDate": "2026-09-18",
+      "priority": "普通",
+      "status": "已通过",
+      "description": "产品认证与关键客户经营培训计划已确认。"
+    }
+  ],
+  "lifecycles": [
+    {
+      "id": "life-001",
+      "employeeId": "emp-047",
+      "name": "温栩",
+      "department": "人力行政",
+      "type": "入职",
+      "effectiveDate": "2026-09-22",
+      "owner": "林悦",
+      "status": "进行中",
+      "checklist": [
+        {
+          "id": "item-1",
+          "label": "资料与合同核验",
+          "done": true
+        },
+        {
+          "id": "item-2",
+          "label": "设备和账号准备",
+          "done": true
+        },
+        {
+          "id": "item-3",
+          "label": "入职引导与导师确认",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "life-002",
+      "employeeId": "emp-048",
+      "name": "陈雨桐",
+      "department": "人力行政",
+      "type": "入职",
+      "effectiveDate": "2026-09-22",
+      "owner": "许嘉",
+      "status": "进行中",
+      "checklist": [
+        {
+          "id": "item-1",
+          "label": "资料与合同核验",
+          "done": true
+        },
+        {
+          "id": "item-2",
+          "label": "设备和账号准备",
+          "done": false
+        },
+        {
+          "id": "item-3",
+          "label": "入职引导与导师确认",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "life-003",
+      "employeeId": "emp-004",
+      "name": "周予安",
+      "department": "技术研发",
+      "type": "转正",
+      "effectiveDate": "2026-09-25",
+      "owner": "陈远",
+      "status": "进行中",
+      "checklist": [
+        {
+          "id": "item-1",
+          "label": "员工自评提交",
+          "done": true
+        },
+        {
+          "id": "item-2",
+          "label": "直属经理评估",
+          "done": true
+        },
+        {
+          "id": "item-3",
+          "label": "转正沟通确认",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "life-004",
+      "employeeId": "emp-015",
+      "name": "苏晚",
+      "department": "产品设计",
+      "type": "调岗",
+      "effectiveDate": "2026-10-01",
+      "owner": "林悦",
+      "status": "进行中",
+      "checklist": [
+        {
+          "id": "item-1",
+          "label": "调岗方案确认",
+          "done": true
+        },
+        {
+          "id": "item-2",
+          "label": "工作交接确认",
+          "done": false
+        },
+        {
+          "id": "item-3",
+          "label": "员工沟通与档案更新",
+          "done": false
+        }
+      ]
+    },
+    {
+      "id": "life-005",
+      "employeeId": "emp-028",
+      "name": "傅晴",
+      "department": "市场增长",
+      "type": "离职",
+      "effectiveDate": "2026-09-30",
+      "owner": "林悦",
+      "status": "进行中",
+      "checklist": [
+        {
+          "id": "item-1",
+          "label": "离职面谈完成",
+          "done": true
+        },
+        {
+          "id": "item-2",
+          "label": "工作与资产交接",
+          "done": false
+        },
+        {
+          "id": "item-3",
+          "label": "结算与账号回收确认",
+          "done": false
+        }
+      ]
+    }
+  ],
+  "performance": [
+    {
+      "id": "perf-001",
+      "employeeId": "emp-001",
+      "name": "陈远",
+      "department": "技术研发",
+      "objective": "核心服务可用性达到 99.95%",
+      "progress": 88,
+      "score": null,
+      "status": "进行中",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "id": "perf-002",
+      "employeeId": "emp-016",
+      "name": "林书雅",
+      "department": "产品设计",
+      "objective": "完成 AI 助手新版本上线",
+      "progress": 72,
+      "score": null,
+      "status": "进行中",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "id": "perf-003",
+      "employeeId": "emp-024",
+      "name": "陆然",
+      "department": "市场增长",
+      "objective": "提升新用户激活率至 35%",
+      "progress": 64,
+      "score": null,
+      "status": "进行中",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "id": "perf-004",
+      "employeeId": "emp-032",
+      "name": "高俊",
+      "department": "商业运营",
+      "objective": "完成季度企业客户转化目标",
+      "progress": 91,
+      "score": null,
+      "status": "进行中",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "id": "perf-005",
+      "employeeId": "emp-039",
+      "name": "孟辰",
+      "department": "客户成功",
+      "objective": "重点客户续约率达到 92%",
+      "progress": 100,
+      "score": null,
+      "status": "待评审",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "id": "perf-006",
+      "employeeId": "emp-045",
+      "name": "林悦",
+      "department": "人力行政",
+      "objective": "完善关键岗位人才梯队",
+      "progress": 78,
+      "score": null,
+      "status": "进行中",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "id": "perf-007",
+      "employeeId": "emp-018",
+      "name": "周言",
+      "department": "产品设计",
+      "objective": "设计系统覆盖核心业务页面",
+      "progress": 100,
+      "score": 92,
+      "status": "已完成",
+      "dueDate": "2026-09-30"
+    },
+    {
+      "id": "perf-008",
+      "employeeId": "emp-046",
+      "name": "许嘉",
+      "department": "人力行政",
+      "objective": "缩短关键岗位招聘周期",
+      "progress": 86,
+      "score": null,
+      "status": "进行中",
+      "dueDate": "2026-09-30"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dep-tech",
+      "name": "技术研发",
+      "headcountBudget": 18,
+      "costBudget": 660000
+    },
+    {
+      "id": "dep-product",
+      "name": "产品设计",
+      "headcountBudget": 11,
+      "costBudget": 350000
+    },
+    {
+      "id": "dep-growth",
+      "name": "市场增长",
+      "headcountBudget": 10,
+      "costBudget": 280000
+    },
+    {
+      "id": "dep-business",
+      "name": "商业运营",
+      "headcountBudget": 8,
+      "costBudget": 240000
+    },
+    {
+      "id": "dep-customer",
+      "name": "客户成功",
+      "headcountBudget": 7,
+      "costBudget": 180000
+    },
+    {
+      "id": "dep-people",
+      "name": "人力行政",
+      "headcountBudget": 5,
+      "costBudget": 150000
+    }
+  ],
+  "events": [
+    {
+      "id": "event-001",
+      "title": "产品与研发人才盘点",
+      "time": "10:00–11:00",
+      "date": "2026-09-20",
+      "type": "人才会议",
+      "participants": "林悦、陈远、苏晚"
+    },
+    {
+      "id": "event-002",
+      "title": "高级前端工程师 · 终面沟通",
+      "time": "14:00–14:45",
+      "date": "2026-09-20",
+      "type": "面试",
+      "participants": "许嘉、陈远"
+    },
+    {
+      "id": "event-003",
+      "title": "Q3 绩效校准预备会",
+      "time": "16:00–17:00",
+      "date": "2026-09-20",
+      "type": "绩效会议",
+      "participants": "林悦、各部门负责人"
+    }
+  ],
+  "audit": [
+    {
+      "id": "audit-seed-001",
+      "action": "初始化演示数据",
+      "entity": "工作台",
+      "detail": "已载入 48 名虚构员工与招聘、入转调离、绩效流程；所有信息仅供产品体验。",
+      "createdAt": "2026-09-20T01:00:00.000Z"
+    },
+    {
+      "id": "audit-seed-002",
+      "action": "审批通过",
+      "entity": "待办",
+      "detail": "客户成功季度学习计划",
+      "createdAt": "2026-09-20T01:20:00.000Z"
+    }
+  ],
+  "meta": {
+    "demo": true,
+    "referenceDate": "2026-09-20",
+    "company": "星云科技",
+    "user": {
+      "name": "林悦",
+      "role": "HR 负责人"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+services:
+  people:
+    build: .
+    ports:
+      - "4318:4318"
+    restart: unless-stopped

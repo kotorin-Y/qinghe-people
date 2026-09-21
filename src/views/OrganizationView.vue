@@ -1,0 +1,48 @@
+<script setup lang="ts">
+import { computed, ref } from 'vue';
+import { activeEmployees, avatarStyle, data, exportCsv, headcountBudget } from '../store';
+import Icon from '../components/Icon.vue';
+
+const search = ref('');
+const departments = computed(() => data.departments.map(department => {
+  const employees = activeEmployees.value.filter(employee => employee.department === department.name);
+  const probation = employees.filter(employee => employee.status === '试用').length;
+  const recruiting = data.jobs.filter(job => job.department === department.name && job.status === '招聘中').reduce((sum, job) => sum + job.headcount, 0);
+  return { ...department, employees, probation, actual: employees.length, vacancy: department.headcountBudget - employees.length, recruiting, utilization: department.headcountBudget ? Math.round(employees.length / department.headcountBudget * 100) : 0 };
+}));
+const filtered = computed(() => departments.value.filter(department => department.name.includes(search.value.trim())));
+const costBudget = computed(() => data.departments.reduce((sum, department) => sum + department.costBudget, 0));
+const available = computed(() => departments.value.reduce((sum, department) => sum + Math.max(0, department.vacancy), 0));
+const overBudget = computed(() => departments.value.reduce((sum, department) => sum + Math.max(0, -department.vacancy), 0));
+const totalUtilization = computed(() => headcountBudget.value ? Math.round(activeEmployees.value.length / headcountBudget.value * 100) : 0);
+const money = (amount: number) => (amount / 10000).toLocaleString('zh-CN', { maximumFractionDigits: 1 });
+function exportDepartments() { exportCsv('组织编制预算.csv', ['部门', '编制预算', '实际在职', '可用编制', '超编人数', '招聘中需求', '编制使用率', '月度成本预算（元）'], filtered.value.map(department => [department.name, department.headcountBudget, department.actual, Math.max(0, department.vacancy), Math.max(0, -department.vacancy), department.recruiting, `${department.utilization}%`, department.costBudget])); }
+</script>
+
+<template>
+  <div class="page-heading"><div><div class="eyebrow">ORGANIZATION & PLANNING</div><h1>组织与编制</h1><p class="page-subtitle">让每一份人才投入，都与业务目标同向。</p></div><button class="btn" @click="exportDepartments"><Icon name="download" :size="16" />导出编制报表</button></div>
+  <div class="metric-row">
+    <div class="metric-card"><span class="metric-label">组织部门</span><strong class="metric-value">{{ data.departments.length }}<small>个</small></strong><span class="metric-foot">连接业务与专业职能</span></div>
+    <div class="metric-card"><span class="metric-label">编制预算</span><strong class="metric-value">{{ headcountBudget }}<small>人</small></strong><span class="metric-foot">实际在职 {{ activeEmployees.length }} 人 · 使用率 {{ totalUtilization }}%</span></div>
+    <div class="metric-card"><span class="metric-label">可用编制</span><strong class="metric-value">{{ available }}<small>人</small></strong><span class="metric-foot">{{ overBudget ? `另有 ${overBudget} 人超编，需关注部门分配` : '按各部门剩余编制汇总' }}</span></div>
+    <div class="metric-card"><span class="metric-label">月度成本预算</span><strong class="metric-value">{{ money(costBudget) }}<small>万元</small></strong><span class="metric-foot">规划预算 · 非实际薪酬成本</span></div>
+  </div>
+
+  <section class="panel structure-panel">
+    <div class="panel-header"><div><h2>组织概览</h2><p class="section-subtitle">{{ data.meta.company }} · 以部门为单位的人才配置</p></div><span class="badge badge-blue"><Icon name="buildings" :size="13" />{{ data.departments.length }} 个部门</span></div>
+    <div class="organization-root"><span class="root-icon"><Icon name="buildings" :size="24" /></span><div><strong>{{ data.meta.company }}</strong><p>{{ activeEmployees.length }} 位在职伙伴 · {{ headcountBudget }} 个规划岗位</p></div><div class="root-stat"><strong>{{ totalUtilization }}<small>%</small></strong><span>编制使用率</span></div></div>
+    <div class="department-grid"><article v-for="department in departments" :key="department.id" class="department-card"><div class="department-top"><span class="department-icon"><Icon name="users" :size="18" /></span><span v-if="department.vacancy < 0" class="badge badge-red">超编 {{ -department.vacancy }} 人</span><span v-else class="department-availability">余 {{ department.vacancy }} 个编制</span></div><h3>{{ department.name }}</h3><div class="department-headcount"><strong>{{ department.actual }}</strong><span>/ {{ department.headcountBudget }} 人</span></div><div class="progress-track"><span class="progress-fill" :class="{ exceeded: department.vacancy < 0 }" :style="{ width: `${Math.min(department.utilization, 100)}%` }" /></div><div class="department-bottom"><div class="team-avatars"><span v-for="employee in department.employees.slice(0, 4)" :key="employee.id" class="avatar small-avatar" :style="avatarStyle(employee.name)" :title="employee.name">{{ employee.name.slice(-1) }}</span><span v-if="!department.employees.length" class="no-members">暂无在职员工</span></div><span>{{ department.probation }} 人试用期</span></div></article></div>
+    <div v-if="!departments.length" class="empty-state">暂无组织部门。</div>
+  </section>
+
+  <section class="panel budget-panel">
+    <div class="panel-header"><div><h2>部门编制与预算</h2><p class="section-subtitle">在职人数实时关联员工档案，招聘需求独立统计。</p></div><label class="search-field department-search"><Icon name="search" :size="16" /><input v-model="search" type="search" placeholder="搜索部门" aria-label="搜索部门编制" /></label></div>
+    <div class="table-wrap"><table class="table"><thead><tr><th>部门</th><th>预算编制</th><th>实际在职</th><th>编制余量</th><th>招聘中需求</th><th>使用率</th><th class="money-column">月度成本预算</th></tr></thead><tbody><tr v-for="department in filtered" :key="department.id"><td class="department-name">{{ department.name }}</td><td>{{ department.headcountBudget }}<span class="unit">人</span></td><td>{{ department.actual }}<span class="unit">人</span></td><td><span class="badge" :class="department.vacancy < 0 ? 'badge-red' : department.vacancy === 0 ? 'badge-muted' : 'badge-green'">{{ department.vacancy < 0 ? `超编 ${-department.vacancy}` : `余 ${department.vacancy}` }} 人</span></td><td>{{ department.recruiting }}<span class="unit">人</span></td><td><div class="utilization-cell"><div class="progress-track"><span class="progress-fill" :class="{ exceeded: department.vacancy < 0 }" :style="{ width: `${Math.min(department.utilization, 100)}%` }" /></div><span>{{ department.utilization }}%</span></div></td><td class="money-column">¥ {{ department.costBudget.toLocaleString('zh-CN') }}</td></tr></tbody></table></div>
+    <div v-if="!filtered.length" class="empty-state"><p>未找到符合条件的部门</p><button v-if="search" class="btn btn-small" @click="search = ''">清除搜索</button></div>
+    <div class="budget-note"><Icon name="briefcase" :size="15" /><span>统计口径：在职包含正式与试用员工；待入职及离职员工不计入。成本仅展示月度预算，尚未接入实际薪酬数据。</span></div>
+  </section>
+</template>
+
+<style scoped>
+.metric-value small{font-size:13px;font-weight:400;margin-left:8px;color:#9197a7}.structure-panel{margin-bottom:22px}.section-subtitle{font-size:11px;color:#949bad;margin:7px 0 0}.organization-root{margin:0 24px 24px;border:1px solid #e7ebf7;border-radius:10px;padding:20px 24px;background:linear-gradient(100deg,#f4f6ff,#fcfcff);display:flex;align-items:center;gap:16px}.root-icon{height:49px;width:49px;display:grid;place-items:center;background:#e8edff;color:#5976df;border-radius:12px}.organization-root strong{font-size:17px;color:#374360}.organization-root p{margin:7px 0 0;font-size:12px;color:#929bb0}.root-stat{margin-left:auto;text-align:right}.root-stat strong{display:block;font-size:29px;letter-spacing:-1px;color:#5574dd}.root-stat strong small{font-size:13px;margin-left:2px}.root-stat>span{font-size:11px;color:#96a0b4}.department-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:0 24px 24px}.department-card{border:1px solid #e9edf3;border-radius:10px;padding:19px 18px}.department-top{display:flex;align-items:center;justify-content:space-between}.department-icon{display:grid;place-items:center;width:33px;height:33px;background:#f2f5fd;border-radius:8px;color:#7587b5}.department-availability{font-size:10px;color:#929eb3}.department-card h3{font-size:13px;color:#536078;margin:17px 0 10px}.department-headcount{display:flex;align-items:baseline;gap:7px;margin-bottom:12px}.department-headcount strong{font-size:29px;letter-spacing:-1px;font-weight:600;color:#344058}.department-headcount span{font-size:11px;color:#9ca4b4}.department-card .progress-track{height:4px}.department-bottom{display:flex;justify-content:space-between;align-items:center;margin-top:20px;font-size:10px;color:#9ba4b6}.team-avatars{display:flex;padding-left:3px}.small-avatar{height:25px;width:25px;border:2px solid white;margin-left:-3px;border-radius:50%;font-size:9px}.no-members{font-size:10px;color:#a6acb9}.exceeded{background:#dd8c87!important}.department-search{max-width:220px}.department-name{font-weight:500;color:#45516b}.unit{font-size:10px;color:#a2a9b6;margin-left:4px}.utilization-cell{display:flex;align-items:center;gap:10px}.utilization-cell .progress-track{width:65px;height:4px}.utilization-cell>span{font-size:11px;color:#8592ac}.money-column{text-align:right!important;font-variant-numeric:tabular-nums}.budget-note{padding:15px 23px;display:flex;align-items:center;gap:8px;border-top:1px solid #edf0f5;color:#97a1b4;font-size:10px;line-height:1.8}.budget-note svg{flex-shrink:0}@media(max-width:1100px){.department-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:650px){.department-grid{grid-template-columns:1fr;padding:0 16px 16px}.organization-root{margin:0 16px 18px;padding:16px}.organization-root p{font-size:10px}.root-stat{display:none}.budget-panel .panel-header{align-items:flex-start;gap:15px;flex-wrap:wrap}.department-search{max-width:none}}
+</style>

@@ -1,0 +1,8 @@
+node_modules
+dist
+.git
+.npm-cache
+test-results
+.env
+.env.*
+*.log
