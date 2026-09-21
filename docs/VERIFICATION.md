@@ -18,8 +18,8 @@
 | 默认模式不发出业务 API 请求 | 通过 |
 | 交付工程隐私与敏感文件扫描 | 通过 |
 
-上述交互测试在 Windows + Edge 无头浏览器执行。自动化单元和运行服务测试共 7 项通过。界面截图与测试临时产物不进入分发包。
+交互测试已在 Windows + Edge 及 Linux + Chromium 无头浏览器执行。自动化单元和运行服务测试共 7 项通过。界面截图与测试临时产物不进入分发包。
 
-跨平台 CI 配置覆盖 Windows、macOS、Linux 的安装、构建、数据和运行服务测试，Linux Chromium 交互以及 Docker 构建与启动；远端执行结果应以仓库 Actions 为准。Safari、Firefox、实体手机和辅助技术未实测。视口检查验证响应式布局，不等于对全部实体设备的兼容认证。
+GitHub Actions 已通过 Windows、macOS、Linux 的安装、构建、数据和运行服务测试，Linux Chromium 交互以及 Docker 构建与启动。验证记录：[跨平台 CI](https://github.com/kotorin-Y/qinghe-people/actions/runs/35573676147)。子目录静态部署入口及独立交付目录的无依赖启动验证均通过。Safari、Firefox、实体手机和辅助技术未实测。视口检查验证响应式布局，不等于对全部实体设备的兼容认证。
 
 当前版本不提供生产认证、数据库、多用户同步、完整备份恢复或服务端审计。所有业务数据为虚构体验样例，固定账号仅用于体验。第三方依赖法定许可证予以保留。
